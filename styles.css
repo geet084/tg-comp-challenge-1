@@ -3,11 +3,13 @@
   margin: 0;
   padding: 0;
   border: 1px solid white;
+  margin: 5px;
 }
 body {
   width: 100%;
   height: 100vh;
   background-color: grey;
+  margin: 0 auto;
 }
 /*  Nav Area  */
 
@@ -39,6 +41,12 @@ aside {
 
 /*  Main Area  */
 
+.place-holder {
+  background-color: black;
+  height: 150px;
+  width: 100%;
+}
+
 main {
   display: flex;
   width: 100%;
@@ -49,7 +57,7 @@ main {
 .shares {
   background-color: green;
   width: 100%;
-  height: 200px;
+  height: 100px;
   
 }
 
@@ -59,19 +67,27 @@ section.boxes {
   justify-content: space-around;
   justify-content: center;
   margin: auto;
-  max-width: 810px;
+  max-width: 1440px;
 }
 
 article {
   background-color: pink;
-  width: 200px;
-  height: 200px;
+  width: 340px;
+  height: 450px;
+  /*display: flex;    doesnt work*/
 }
 
 article.boxes {
   flex-wrap: wrap;
 }
 
+article.box-content {
+ /*display: flex;   doesnt work*/
+}
+
+.bl-num {
+  align-self: flex-end;
+}
 
 
 

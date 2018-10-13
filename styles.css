@@ -8,43 +8,73 @@
 body {
   width: 100%;
   height: 100vh;
-  background-color: grey;
+  background-color: lightgrey;
   margin: 0 auto;
 }
+
+.arrow-img {
+  width: 40px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  opacity: 1;
+}
+
+.num-views {
+  position: relative;
+  top: -25px;
+  right: -200px;
+  font-size: 1rem;
+  color: white;
+  opacity: 1;
+}
+
 /*  Nav Area  */
 
 header {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
 
 }
 
 nav {
   justify-content: flex-start;
-  background-color: red;
   flex: 5;
   display: flex;
 }
 
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+i {
+  margin: 0;
+}
+
 .links li {
   display: inline;
-  margin: auto 10px;
+  margin: 0;
+}
+
+.links div {
+  margin: 0 15px;
 }
 
 aside {
   justify-content: flex-end;
-  background-color: blue;
   flex: 2;
 }
 
 /*  Main Area  */
 
 .place-holder {
-  background-color: black;
   height: 150px;
   width: 100%;
+  opacity: .6;
+  margin-top: -55px;
 }
 
 main {
@@ -55,10 +85,12 @@ main {
 }
 
 .shares {
-  background-color: green;
   width: 100%;
   height: 100px;
-  
+}
+
+.box-content-top-area p {
+  height: auto;
 }
 
 section.boxes {
@@ -70,24 +102,16 @@ section.boxes {
   max-width: 1440px;
 }
 
+article.box-content {
+ display: flex;   
+ flex-direction: column;
+}
+
 article {
-  background-color: pink;
   width: 340px;
   height: 450px;
-  /*display: flex;    doesnt work*/
 }
 
-article.boxes {
-  flex-wrap: wrap;
-}
-
-article.box-content {
- /*display: flex;   doesnt work*/
-}
-
-.bl-num {
-  align-self: flex-end;
-}
 
 
 

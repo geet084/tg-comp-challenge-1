@@ -52,6 +52,10 @@ aside {
   max-height: 100%;
 }
 
+.logo-img {
+  margin-left: 10px;
+}
+
 .shares-link, .admin-icon, .company-logo, .link-sub-menu {
   color: white;
 }
@@ -121,7 +125,6 @@ article.box-content {
   box-shadow: 0 0 3px 4px lightgrey;
   min-width: 320px;
   max-width: 345px;
-  height: auto;
   margin: 5px;
   align-content: space-around;
   padding: 10px 20px 20px;
@@ -131,98 +134,55 @@ article.box-content p {
   margin: 20px auto;
 }
 
-.box-content-attachments h4 {
+.content-attachments h4 {
   color: #5BB8F9;
   font-size: 2rem;
   margin-top: -15px;
 }
 
-.box-content-top-area p {
-  height: auto;
+.content-name-date {
+  padding-top: 20px;
 }
 
-.box-content-name-date {
-  padding-top: 20px;
+div.content-top {
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: -10px -20px -20px;
 }
 
 .img1 {
   background: center url('image1.jpg');
-  background-size: cover;
-  height: 150px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin: -10px -20px -20px;
 }
 
 .img2 {
   background: center url('image2.png');
-  background-size: cover;
-  height: 150px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin: -10px -20px -20px;
 }
 
 .img3 {
   background: center url('image3.jpg');
-  background-size: cover;
-  height: 150px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin: -10px -20px -20px;
 }
 
 .img4 {
   background: center url('image9.jpg');
-  background-size: cover;
-  height: 150px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin: -10px -20px -20px;
 }
 
 .img5 {
   background: center url('image4.jpg');
-  background-size: cover;
-  height: 150px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin: -10px -20px -20px;
 }
 
 .img6 {
   background: center url('image6.jpg');
-  background-size: cover;
-  height: 150px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin: -10px -20px -20px;
 }
 
 .img7 {
   background: center url('image7.jpg');
-  background-size: cover;
-  height: 150px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin: -10px -20px -20px;
 }
 
 .img8 {
   background: center url('image8.jpg');
-  background-size: cover;
-  height: 150px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin: -10px -20px -20px;
 }
 
 .nums {

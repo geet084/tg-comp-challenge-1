@@ -1,5 +1,5 @@
 # Static Comp 1
-## recreate 
+## First static comp for Mod 1, designed to have a responsive layout 
 ## Built with
 * HTML
 * CSS - without Grid

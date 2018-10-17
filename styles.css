@@ -111,9 +111,7 @@ main {
   margin-left: 15px;
   width: 50px;
   border-radius: 50%;
-  /*background-color:  #4c9ad1;*/
-  /*background-color:  white;*/
-  color: black;
+  background-color: black;
 }
 
 article.box-content {
@@ -135,17 +133,8 @@ article.box-content p {
 
 .box-content-attachments h4 {
   color: #5BB8F9;
-}
-
-.box-content-top-area {
-  background: center url('image1.jpg');
-  background-size: cover;
-  height: 150px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin: -10px -20px -20px;
-
+  font-size: 2rem;
+  margin-top: -15px;
 }
 
 .box-content-top-area p {
@@ -156,6 +145,86 @@ article.box-content p {
   padding-top: 20px;
 }
 
+.img1 {
+  background: center url('image1.jpg');
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: -10px -20px -20px;
+}
+
+.img2 {
+  background: center url('image2.png');
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: -10px -20px -20px;
+}
+
+.img3 {
+  background: center url('image3.jpg');
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: -10px -20px -20px;
+}
+
+.img4 {
+  background: center url('image9.jpg');
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: -10px -20px -20px;
+}
+
+.img5 {
+  background: center url('image4.jpg');
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: -10px -20px -20px;
+}
+
+.img6 {
+  background: center url('image6.jpg');
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: -10px -20px -20px;
+}
+
+.img7 {
+  background: center url('image7.jpg');
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: -10px -20px -20px;
+}
+
+.img8 {
+  background: center url('image8.jpg');
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: -10px -20px -20px;
+}
+
 .nums {
   font-size: 2.5rem;
   margin-top: -3px;
@@ -164,7 +233,6 @@ article.box-content p {
 .num-views {
   font-size: 1rem;
   color: #ffffff;
-  opacity: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
